@@ -242,11 +242,12 @@ a {
 
 /* Navbar */
 
-.navbar-default {
-  background-color: #FFF;
-}
+//.navbar-default {
+  //background-color: #FFF;
+//}
 
 .navbar {
+  background-color: transparent;
   margin-bottom: $space-md * 2;
 }
 
@@ -371,9 +372,10 @@ script + p {
 /*++ Resume Content Area +++++++++++++++++++++++*/
 
 .resume-nav {
+  background-color: transparent;
   padding-top: 7px;
-  color: #999;
-  text-align: center;
+  //color: #999;
+  text-align: left;
 }
 
 .resume-dropdown {
