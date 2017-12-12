@@ -183,7 +183,10 @@ ul {
 pre {
   margin: $space-md 0;
 }
-
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
 a {
   color: $color-base;
   &:hover {
